@@ -10,6 +10,7 @@ body {
     height: 100vh;
     border: solid red 2px;
     background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit", serif;
 }
 
 .main-container {
@@ -17,7 +18,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    height: 400px;
+    height: 390px;
     width: 270px;
     border-radius: 5%;
 
@@ -41,9 +42,22 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 3%;
     font-size: 1.2em;
-    font-family: "Outfit", serif;
+
     font-weight: 900;
-    border: solid black 2px;
+    /* border: solid black 2px; */
+}
+
+#paragraph-text-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    font-size: .7em;
+    font-weight: 700;
+    text-align: center;
+    color: gray
+    /* border: solid black 2px; */
 }
